@@ -12,7 +12,6 @@ type ProjectProps = {
   tech: string[];
   metrics: string[];
   github: string;
-  demo: string;
 };
 
 
@@ -23,7 +22,6 @@ export default function ProjectCard({
   tech,
   metrics,
   github,
-  demo,
 }: ProjectProps) {
 
 
