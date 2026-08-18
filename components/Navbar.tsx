@@ -39,7 +39,6 @@ font-bold
 "
 >
 
-&lt;PC/&gt;
 
 </div>
 
@@ -81,28 +80,6 @@ Contact
 
 </div>
 
-
-
-<a
-
-href="/resume.pdf"
-
-className="
-border
-border-white/30
-rounded-xl
-px-2
-py-2
-hover:bg-white
-hover:text-black
-transition
-"
-
->
-
-📄 Request Resume
-
-</a>
 
 
 

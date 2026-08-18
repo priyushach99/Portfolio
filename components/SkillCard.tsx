@@ -29,6 +29,7 @@ import {
   SiTypescript,
   SiTailwindcss,
   SiGithubactions,
+  SiScikitlearn,
 } from "react-icons/si";
 
 
@@ -46,6 +47,8 @@ const icons: any = {
   GraphQL: <SiGraphql className="text-pink-500" />,
   "REST APIs": <FaTerminal className="text-blue-400" />,
   Microservices: <FaTerminal className="text-purple-400" />,
+  PySpark: <FaPython className="text-orange-400" />,
+  "scikit-learn": <SiScikitlearn className="text-orange-500" />,
 
   PostgreSQL: <SiPostgresql className="text-blue-400" />,
   Redis: <SiRedis className="text-red-400" />,
@@ -58,8 +61,14 @@ const icons: any = {
   Jenkins: <SiJenkins className="text-gray-300" />,
   Linux: <FaLinux className="text-yellow-500" />,
   "CI/CD": <SiGithubactions className="text-blue-500" />,
+    Pytest: <FaPython className="text-blue-400" />,
+  "SLA Monitoring": <FaTerminal className="text-yellow-400" />,
 
   PyTorch: <SiPytorch className="text-orange-500" />,
+  FAISS: <FaRobot className="text-cyan-400" />,
+  "OpenAI Whisper": <FaRobot className="text-green-400" />,
+  "Sentence Transformers": <FaRobot className="text-purple-400" />,
+  LLaMA: <FaRobot className="text-blue-400" />,
   "GPT-4o": <FaRobot className="text-purple-400" />,
   LangChain: <FaRobot className="text-green-400" />,
   RAG: <FaRobot className="text-pink-400" />,
@@ -109,28 +118,28 @@ export default function SkillCard({
       }}
     >
 
-      {/* ================================================= */}
-      {/* LARGE GLOW BEHIND CARD */}
+       {/* ================================================= */}
+      {/* SUBTLE BLUE GLOW */}
       {/* ================================================= */}
 
       <div
         className="
           absolute
-          -inset-5
+          -inset-4
           rounded-[28px]
           bg-blue-500
           opacity-0
           blur-3xl
           transition-opacity
           duration-500
-          group-hover:opacity-40
+          group-hover:opacity-15
           pointer-events-none
         "
       />
 
 
       {/* ================================================= */}
-      {/* SECOND GLOW */}
+      {/* SUBTLE PURPLE GLOW */}
       {/* ================================================= */}
 
       <div
@@ -143,7 +152,7 @@ export default function SkillCard({
           blur-xl
           transition-opacity
           duration-500
-          group-hover:opacity-30
+          group-hover:opacity-10
           pointer-events-none
         "
       />

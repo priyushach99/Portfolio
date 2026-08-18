@@ -3,34 +3,112 @@ export default function About() {
     <section
       id="about"
       className="
-        px-20
+        px-6
+        md:px-20
         py-16
-        text-center
       "
     >
-
-      <h2 className="text-4xl font-bold mb-6">
+      <h2 className="text-4xl font-bold mb-6 text-center">
         About Me
       </h2>
-	  <div className="max-w-3xl mx-auto text-left">
 
-      <p className="text-gray-400 max-w-3xl mx-auto leading-7 text-justify">
-        I started my Software engineering journey at <strong> Bank of America </strong> as a campus graduate, where I got exposure to many sides of software engineering - from supporting teammates and documenting solutions to independently owning features through production releases. One thing that has stayed consistent throughout my journey is that I’m a <strong> quick learner </strong> who gets up to speed fast, especially when working with new systems and technologies.
-      </p>
+      <div className="max-w-3xl mx-auto">
 
-      <p className="text-gray-400 max-w-3xl mx-auto leading-7 mt-4 text-justify">
-        That experience helped me discover what I enjoy most: <strong> Backend engineering, working with Data, and building Distributed systems </strong>. I wanted to take that foundation further, deepen my existing skills, and explore where technology is heading, which led me to pursue my <strong>MS in Information Studies </strong> at Trine University, graduating in <strong>2027</strong> with a <strong>4.0 GPA</strong>.
-      </p>
+        {/* Introduction */}
+        <p
+          className="
+            text-gray-400
+            leading-7
+            text-left
+            md:text-justify
+          "
+        >
+          I’m a <strong>software engineer</strong> who enjoys turning complex
+          data and backend problems into reliable, scalable systems. My
+          experience spans <strong>backend development, data engineering,
+          distributed systems</strong>, and increasingly,
+          <strong> AI-powered applications</strong>.
+        </p>
 
-      <p className="text-gray-400 max-w-3xl mx-auto leading-7 mt-4 text-justify">
-        During my master’s, I’ve expanded my interests into <strong>AI/ML</strong> and started exploring new ways of building and solving problems. Even as I explore new areas, I continue to find myself drawn to the backend, data, and distributed-system technologies that first sparked my interest in software. At the same time, I’m always open to exploring new sides of engineering — <strong>the more challenging and unfamiliar the problem, the more it grabs my attention and brings out my curiosity to learn</strong>.
-      </p>
-	  
-	  <p className="text-gray-400 max-w-3xl mx-auto leading-7 mt-4 ">
-        Now, I’m looking to bring together my <strong>industry experience, academic learning, and curiosity for AI/ML</strong> to build meaningful systems, <strong>learn from experienced engineers, and contribute as a dependable team member</strong>. I’m excited to collaborate, take on challenging problems, and make a meaningful contribution to the team.
-      </p>
 
-    </div>
-	</section>
+        {/* Industry Experience */}
+        <p
+          className="
+            text-gray-400
+            leading-7
+            mt-4
+            text-left
+            md:text-justify
+          "
+        >
+          I started my software engineering journey at{" "}
+          <strong>Bank of America</strong> as a campus graduate, where I worked
+          on production systems ranging from large-scale data pipelines and
+          APIs to distributed workflows and cloud infrastructure. That
+          experience taught me not only how to build systems, but also how to
+          own features through production, collaborate across teams, and solve
+          problems when things don’t go as planned.
+        </p>
+
+
+        {/* Technical Direction */}
+        <p
+          className="
+            text-gray-400
+            leading-7
+            mt-4
+            text-left
+            md:text-justify
+          "
+        >
+          Over time, I found myself especially drawn to{" "}
+          <strong>
+            backend engineering, data, and distributed systems
+          </strong>
+           - understanding how systems work under the hood and how to make them
+          reliable at scale. That led me to pursue my{" "}
+          <strong>MS in Information Studies</strong> at Trine University,
+          where I’ve been strengthening my engineering foundation while
+          exploring <strong>AI/ML and modern AI applications</strong>.
+        </p>
+
+
+        {/* Current Focus */}
+        <p
+          className="
+            text-gray-400
+            leading-7
+            mt-4
+            text-left
+            md:text-justify
+          "
+        >
+          Today, I’m particularly interested in the intersection of{" "}
+          <strong>software engineering, data, and AI</strong> - building
+          systems that are not only intelligent, but also reliable, scalable,
+          and practical. I enjoy unfamiliar and challenging problems because
+          they give me an opportunity to learn something new and turn that
+          learning into something useful.
+        </p>
+
+
+        {/* Closing */}
+        <p
+          className="
+            text-gray-400
+            leading-7
+            mt-4
+            text-left
+            md:text-justify
+          "
+        >
+          I’m looking for opportunities where I can bring my{" "}
+          <strong>industry experience and engineering foundation</strong>,
+          continue learning from strong teams, and contribute to building
+          systems that solve real problems.
+        </p>
+
+      </div>
+    </section>
   );
 }

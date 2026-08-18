@@ -26,131 +26,158 @@ export const skillCategories = [
     ]
   },
 
-
   {
     title: "Backend & APIs",
     icon: "⚙️",
-    skills:[
+    skills: [
       {
-        name:"FastAPI",
-        icon:"api"
+        name: "FastAPI",
+        icon: "api"
       },
       {
-        name:"GraphQL",
-        icon:"graphql"
+        name: "GraphQL",
+        icon: "graphql"
       },
       {
-        name:"REST APIs",
-        icon:"api"
+        name: "REST APIs",
+        icon: "api"
       },
       {
-        name:"Microservices",
-        icon:"server"
+        name: "Microservices",
+        icon: "server"
+      },
+      {
+        name: "Pytest",
+        icon: "Pytest"
       }
     ]
   },
 
-
   {
-    title:"Data Engineering",
-    icon:"🗄️",
-    skills:[
+    title: "Data Engineering",
+    icon: "🗄️",
+    skills: [
       {
-        name:"Apache Kafka",
-        icon:"kafka"
+        name: "PySpark",
+        icon: "PySpark"
+      },
+	  {
+        name: "Pandas",
+        icon: "Pandas"
+      },
+	  {
+        name: "Numpy",
+        icon: "Numpy"
       },
       {
-        name:"PostgreSQL",
-        icon:"postgres"
+        name: "Apache Kafka",
+        icon: "kafka"
       },
       {
-        name:"Redis",
-        icon:"redis"
+        name: "PostgreSQL",
+        icon: "postgres"
       },
       {
-        name:"Snowflake",
-        icon:"database"
+        name: "Redis",
+        icon: "redis"
       },
       {
-        name:"Airflow",
-        icon:"airflow"
+        name: "Snowflake",
+        icon: "database"
+      },
+      {
+        name: "Airflow",
+        icon: "airflow"
       }
     ]
   },
 
-
   {
-    title:"Cloud & DevOps",
-    icon:"☁️",
-    skills:[
+    title: "Cloud & DevOps",
+    icon: "☁️",
+    skills: [
       {
-        name:"AWS",
-        icon:"aws"
+        name: "AWS",
+        icon: "aws"
       },
       {
-        name:"Docker",
-        icon:"docker"
+        name: "Docker",
+        icon: "docker"
       },
       {
-        name:"Jenkins",
-        icon:"jenkins"
+        name: "Jenkins",
+        icon: "jenkins"
       },
       {
-        name:"Linux",
-        icon:"linux"
+        name: "Linux",
+        icon: "linux"
       },
       {
-        name:"CI/CD",
-        icon:"pipeline"
+        name: "CI/CD",
+        icon: "pipeline"
+      },
+	  {
+        name: "SLA Monitoring",
+        icon: "SLA Monitoring"
       }
     ]
   },
 
-
   {
-    title:"AI / Machine Learning",
-    icon:"🤖",
-    skills:[
+    title: "AI / Machine Learning",
+    icon: "🤖",
+    skills: [
       {
-        name:"PyTorch",
-        icon:"pytorch"
+        name: "scikit-learn",
+        icon: "scikit-learn"
       },
       {
-        name:"GPT-4o",
-        icon:"ai"
+        name: "PyTorch",
+        icon: "pytorch"
       },
       {
-        name:"LangChain",
-        icon:"ai"
+        name: "RAG",
+        icon: "search"
       },
       {
-        name:"RAG",
-        icon:"search"
+        name: "FAISS",
+        icon: "FAISS"
       },
       {
-        name:"Prompt Engineering",
-        icon:"prompt"
+        name: "OpenAI Whisper",
+        icon: "OpenAI Whisper"
+      },
+      {
+        name: "Sentence Transformers",
+        icon: "Sentence Transformers"
+      },
+      {
+        name: "Prompt Engineering",
+        icon: "prompt"
       }
     ]
   },
-  
-  
+
   {
- title:"Frontend",
- icon:"⚛️",
- skills:[
-   {
-     name:"React",
-     icon:"react"
-   },
-   {
-     name:"TypeScript",
-     icon:"typescript"
-   },
-   {
-     name:"Tailwind",
-     icon:"tailwind"
-   }
- ]
-}
+    title: "Frontend",
+    icon: "⚛️",
+    skills: [
+      {
+        name: "React",
+        icon: "react"
+      },
+      {
+        name: "TypeScript",
+        icon: "typescript"
+      },
+      {
+        name: "Tailwind",
+        icon: "tailwind"
+      },
+	  {
+        name: "Streamlit",
+        icon: "Streamlit"
+      }
+    ]
+  }
 ];

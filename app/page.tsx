@@ -4,6 +4,7 @@ import Experience from "@/sections/Experience";
 import Skills from "@/sections/Skills";
 import Projects from "@/sections/Projects";
 import Navbar from "@/components/Navbar";
+import Contact from "@/components/Contact";
 
 export default function Home() {
   return (
@@ -20,6 +21,7 @@ overflow-hidden
 	  <Experience/>
       <Skills />
       <Projects />
+	  <Contact />
     </main>
   );
 }
